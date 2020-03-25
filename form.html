@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>COVID-19 Help Website</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+<style>
+    body
+    {
+        background-color: darkslategray;
+    }
+    h1
+    {
+        color: forestgreen;
+        font-size: 40px;
+    }
+    h2
+    {
+        background-color: wheat;
+    }
+    h3
+    {
+        color: darkred;
+        font-size: 30px;
+    }
+    legend
+    {
+        color: wheat;
+    }
+    form
+    {
+        background-color: forestgreen;
+        color: black;
+        font-size: 30px;
+    }
+    footer
+    {
+        text-align: center;
+    }
+    label
+    {
+        color: black
+    }
+</style>
+</head>
+<body>
+    <div class="Helpline">
+        <h1>This is a website made for Corona Virus Disease!!!</h1>
+        <h2>If you have any SYMPTOMS or want to REPORT someone that does, fill in your details below...</h2>
+       <form>
+        <legend>Click who your are reporting below..</legend>
+        <input type="radio" id="self" name="selection" value="Self">
+        <label for="Self">Self</label>
+        <input type="radio" id="others" name="selection" value="Others">
+        <label for="Others">Others</label>   
+            <div class="Name">
+                <label for="Name">Name:</label>
+                <input type="text" name="Name" id="user_name" placeholder="Input your name here">
+            </div>
+            <div class="email">
+                <label for="email">Email:</label>
+                <input type="email" name="email" id="email" placeholder="Input your email here">
+            </div>
+            <div class="address">
+                <label for="address">Address:</label>
+                <input type="address" name="address" id="address" placeholder="Input your address">
+            </div>
+            <div class="Age">
+                <label for="Age">Age:</label>
+                <input type="number" name="Age" id="Age" placeholder="Input your age">
+            </div>
+            <legend>Select the symptoms you have from the options below...</legend>
+            <div class="Symptoms">            
+                    <input type="checkbox" id="symptom1" name="symptom1" value="Dry Cough">
+                    <label for="Dry Cough">Dry Cough</label><br>
+                    <input type="checkbox" id="symptom2" name="symptom2" value="Chiils">
+                    <label for="Chills">Chills</label><br>
+                    <input type="checkbox" id="symptom3" name="symptom3" value="Fever">
+                    <label for="Fever">Fever</label><br>
+                    <input type="checkbox" id="symptom4" name="symptom4" value="Cold">
+                    <label for="Cold">Cold</label><br>
+                    <input type="checkbox" id="symptom4" name="symptom4" value="Fatigue">
+                    <label for="Fatigue">Fatigue</label><br>
+                <legend for="Others">Others</legend>
+                <textarea type="text" name="others" id="others" cols="50" rows="1" placeholder="Input symptoms not in the list"></textarea>
+            </div>
+            <div class="comments">
+                <legend for="comments">Any comments or suggestions?</legend>
+                <textarea type="text" name="message" id="message" cols="30" rows="5"  placeholder="Input your comment..."></textarea>
+            </div>
+            <div class="submit">
+                <input type="submit" value="Submit">     
+        </form>
+    </div>
+    </div>
+        <h3>If you feel any of these symptoms, stay away from other people to avoid spreading the virus. Remember to stay indoors, wash your hands regularly, cough either in your elbow or in a disposable tissue. Also at the moment make sure you observe social distancing (keep a distance of at least 2meters from others, do not shake hands too). Stay safe!!!</h3>
+    <footer>
+        <p>@2020 Developed by Busari Hassanat</p>
+        <a href="https://www.twitter.com/HOBespecial/" target="blank"/>
+        <div class="column"> 
+            <img src="logo.png" alt="LOGO" width="75px" height="75px"/>
+        </div>
+    </footer>
+    </body>
+</html>
