@@ -1,0 +1,58 @@
+body {
+    background-color: darkslategray;
+}
+
+h1 {
+    color: red;
+    font-size: 40px;
+}
+
+h2 {
+    background-color: wheat;
+}
+
+h3 {
+    color: white;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+legend {
+    color: red;
+    font-weight: bold;
+}
+
+form {
+    background-color: black;
+    font-size: 30px;
+}
+footer {
+    text-align: center;
+}
+
+label {
+    color: white;
+    font-weight: bold;
+}
+input[type=text],
+        input[type=email],
+        input[type=address],
+        input[type=number], textarea[type=text] {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid darkgray;
+            box-sizing: border-box;
+            width: 100%;
+        }
+button
+{
+   
+    background-color: green;
+    color: white;
+    padding: 14px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+}
